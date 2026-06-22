@@ -121,7 +121,7 @@ print(find_substring(str1, str2)) # поверне -1
 Обоязково документуйте функції та дайте зрозумілі імена змінним.
 """
 
-# task 7 - from homework_6.4 ()
+# task 7 - from homework_6.4
 print("# task 7")
 import random
 my_numbers = [random.randint(1, 100) for _ in range(50)]
