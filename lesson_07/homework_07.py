@@ -142,7 +142,7 @@ def func_computer_price (payment, month):
     return payment * month
 print("computer price = monthly_payment * months =", func_computer_price(monthly_payment, months), "UAH")
 
-# task 9 - from homework 05 (task 01)
+# task 9 - from homework_05_2 (task 03)
 print("# task 9")
 print ("# 3 - check that all people in modified list with records indexes 6, 10, 13 have age >=30. Print condition check result")
 people_records = [
@@ -175,7 +175,7 @@ print(people_records[10])
 print(people_records[13])
 print("Result:", func_check_age(people_records, records_indexes))
 
-# task 10 - from homework 05 (task 01)
+# task 10 - from homework_05_2 (task 01)
 print("# task 10")
 print("# Add your new record at the beginning of the given list")
 
