@@ -121,21 +121,15 @@ print(find_substring(str1, str2)) # поверне -1
 Обоязково документуйте функції та дайте зрозумілі імена змінним.
 """
 
-# task 7 - from homework 06.4
+# task 7 - from homework_6.4 ()
 print("# task 7")
 import random
 my_numbers = [random.randint(1, 100) for _ in range(50)]
 def sum_of_my_numbers(numbers):
     return sum(num for num in numbers if num % 2 == 0)
 print("sum of even numbers:", sum_of_my_numbers(my_numbers))
-# task 8 - from homework 03 (task 06)
+# task 8 - from homework_03 (task 06)
 print("# task 8")
-"""
-Михайло разом з батьками вирішили купити комп’ютер, ско-
-риставшись послугою «Оплата частинами». Відомо, що сплачу-
-вати необхідно буде півтора року по 1179 грн/місяць. Обчисліть
-вартість комп’ютера.
-"""
 monthly_payment = 1179
 months = 18
 def func_computer_price (payment, month):
