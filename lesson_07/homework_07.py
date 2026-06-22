@@ -39,12 +39,11 @@ def sum_of_digits(digit1, digit2):
         return int(result)
     else:
         return result
+number1 = float(input("Enter number1: "))
+number2 = float(input("Enter number2: "))
+print("Sum of 2 digits =", sum_of_digits(number1, number2))
+print()
 
-# можна використати тип int, але тоді не зможемо обчислювати числа з плаваючою точкою.
-# тому я використовую тип float
-base_number1 = float(input("Enter number1: "))
-base_number2 = float(input("Enter number2: "))
-print("Sum of 2 digits =", sum_of_digits(base_number1, base_number2))
 # task 3
 """  Написати функцію, яка розрахує середнє арифметичне списку чисел.
 """
