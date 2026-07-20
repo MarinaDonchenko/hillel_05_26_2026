@@ -46,14 +46,3 @@ def log_event(username: str, status: str):
     else:
         logger.error(log_message)
 
-
-# log_event("Mark", status="success")
-# log_event("Judd", status="expired")
-# log_event("John", status="failed")
-
-
-# if __name__ == "__main__":
-#     log_event("Natalia", "success")
-#     log_event("Ivan", "expired")
-#     log_event("Petro", "failed")
-
