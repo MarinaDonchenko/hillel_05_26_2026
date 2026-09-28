@@ -1,0 +1,360 @@
+2026-08-31 16:16:13,429 - INFO - Starting authentication...
+2026-08-31 16:17:06,346 - INFO - Starting authentication...
+2026-08-31 16:18:27,920 - INFO - Starting authentication...
+2026-08-31 16:18:27,955 - INFO - POST /auth -> status: 200
+2026-08-31 16:18:27,955 - INFO - Authentication successful
+2026-08-31 16:18:27,959 - INFO - GET /cars -> params: {'sort_by': 'price', 'limit': 5}
+2026-08-31 16:18:27,975 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:27,976 - INFO - GET /cars -> response: [
+  {
+    "brand": "Chevrolet",
+    "engine_volume": 1.8,
+    "price": 28000,
+    "year": 2018
+  },
+  {
+    "brand": "Hyundai",
+    "engine_volume": 1.6,
+    "price": 29000,
+    "year": 2020
+  },
+  {
+    "brand": "Honda",
+    "engine_volume": 1.6,
+    "price": 30000,
+    "year": 2016
+  },
+  {
+    "brand": "Kia",
+    "engine_volume": 2.0,
+    "price": 31000,
+    "year": 2019
+  },
+  {
+    "brand": "Ford",
+    "engine_volume": 2.2,
+    "price": 32000,
+    "year": 2015
+  }
+]
+
+2026-08-31 16:18:27,976 - INFO - Test passed: sort_by=price, limit=5
+2026-08-31 16:18:27,983 - INFO - GET /cars -> params: {'sort_by': 'price', 'limit': 10}
+2026-08-31 16:18:27,991 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:27,991 - INFO - GET /cars -> response: [
+  {
+    "brand": "Chevrolet",
+    "engine_volume": 1.8,
+    "price": 28000,
+    "year": 2018
+  },
+  {
+    "brand": "Hyundai",
+    "engine_volume": 1.6,
+    "price": 29000,
+    "year": 2020
+  },
+  {
+    "brand": "Honda",
+    "engine_volume": 1.6,
+    "price": 30000,
+    "year": 2016
+  },
+  {
+    "brand": "Kia",
+    "engine_volume": 2.0,
+    "price": 31000,
+    "year": 2019
+  },
+  {
+    "brand": "Ford",
+    "engine_volume": 2.2,
+    "price": 32000,
+    "year": 2015
+  },
+  {
+    "brand": "Mazda",
+    "engine_volume": 2.0,
+    "price": 32000,
+    "year": 2018
+  },
+  {
+    "brand": "Volkswagen",
+    "engine_volume": 2.0,
+    "price": 33000,
+    "year": 2019
+  },
+  {
+    "brand": "Toyota",
+    "engine_volume": 2.4,
+    "price": 35000,
+    "year": 2017
+  },
+  {
+    "brand": "Nissan",
+    "engine_volume": 1.5,
+    "price": 40000,
+    "year": 2021
+  },
+  {
+    "brand": "Subaru",
+    "engine_volume": 2.5,
+    "price": 40000,
+    "year": 2017
+  }
+]
+
+2026-08-31 16:18:27,992 - INFO - Test passed: sort_by=price, limit=10
+2026-08-31 16:18:28,002 - INFO - GET /cars -> params: {'sort_by': 'year', 'limit': 5}
+2026-08-31 16:18:28,012 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:28,012 - INFO - GET /cars -> response: [
+  {
+    "brand": "Ford",
+    "engine_volume": 2.2,
+    "price": 32000,
+    "year": 2015
+  },
+  {
+    "brand": "Honda",
+    "engine_volume": 1.6,
+    "price": 30000,
+    "year": 2016
+  },
+  {
+    "brand": "Toyota",
+    "engine_volume": 2.4,
+    "price": 35000,
+    "year": 2017
+  },
+  {
+    "brand": "Subaru",
+    "engine_volume": 2.5,
+    "price": 40000,
+    "year": 2017
+  },
+  {
+    "brand": "BMW",
+    "engine_volume": 2.0,
+    "price": 50000,
+    "year": 2018
+  }
+]
+
+2026-08-31 16:18:28,013 - INFO - Test passed: sort_by=year, limit=5
+2026-08-31 16:18:28,020 - INFO - GET /cars -> params: {'sort_by': 'year', 'limit': 10}
+2026-08-31 16:18:28,031 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:28,032 - INFO - GET /cars -> response: [
+  {
+    "brand": "Ford",
+    "engine_volume": 2.2,
+    "price": 32000,
+    "year": 2015
+  },
+  {
+    "brand": "Honda",
+    "engine_volume": 1.6,
+    "price": 30000,
+    "year": 2016
+  },
+  {
+    "brand": "Toyota",
+    "engine_volume": 2.4,
+    "price": 35000,
+    "year": 2017
+  },
+  {
+    "brand": "Subaru",
+    "engine_volume": 2.5,
+    "price": 40000,
+    "year": 2017
+  },
+  {
+    "brand": "BMW",
+    "engine_volume": 2.0,
+    "price": 50000,
+    "year": 2018
+  },
+  {
+    "brand": "Chevrolet",
+    "engine_volume": 1.8,
+    "price": 28000,
+    "year": 2018
+  },
+  {
+    "brand": "Mazda",
+    "engine_volume": 2.0,
+    "price": 32000,
+    "year": 2018
+  },
+  {
+    "brand": "Jeep",
+    "engine_volume": 3.6,
+    "price": 45000,
+    "year": 2018
+  },
+  {
+    "brand": "Mercedes",
+    "engine_volume": 2.5,
+    "price": 55000,
+    "year": 2019
+  },
+  {
+    "brand": "Volkswagen",
+    "engine_volume": 2.0,
+    "price": 33000,
+    "year": 2019
+  }
+]
+
+2026-08-31 16:18:28,033 - INFO - Test passed: sort_by=year, limit=10
+2026-08-31 16:18:28,040 - INFO - GET /cars -> params: {'sort_by': 'engine_volume', 'limit': 5}
+2026-08-31 16:18:28,052 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:28,052 - INFO - GET /cars -> response: [
+  {
+    "brand": "Tesla",
+    "engine_volume": 0.0,
+    "price": 80000,
+    "year": 2020
+  },
+  {
+    "brand": "Nissan",
+    "engine_volume": 1.5,
+    "price": 40000,
+    "year": 2021
+  },
+  {
+    "brand": "Honda",
+    "engine_volume": 1.6,
+    "price": 30000,
+    "year": 2016
+  },
+  {
+    "brand": "Hyundai",
+    "engine_volume": 1.6,
+    "price": 29000,
+    "year": 2020
+  },
+  {
+    "brand": "Audi",
+    "engine_volume": 1.8,
+    "price": 45000,
+    "year": 2020
+  }
+]
+
+2026-08-31 16:18:28,052 - INFO - Test passed: sort_by=engine_volume, limit=5
+2026-08-31 16:18:28,058 - INFO - GET /cars -> params: {'sort_by': 'engine_volume', 'limit': 10}
+2026-08-31 16:18:28,071 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:28,071 - INFO - GET /cars -> response: [
+  {
+    "brand": "Tesla",
+    "engine_volume": 0.0,
+    "price": 80000,
+    "year": 2020
+  },
+  {
+    "brand": "Nissan",
+    "engine_volume": 1.5,
+    "price": 40000,
+    "year": 2021
+  },
+  {
+    "brand": "Honda",
+    "engine_volume": 1.6,
+    "price": 30000,
+    "year": 2016
+  },
+  {
+    "brand": "Hyundai",
+    "engine_volume": 1.6,
+    "price": 29000,
+    "year": 2020
+  },
+  {
+    "brand": "Audi",
+    "engine_volume": 1.8,
+    "price": 45000,
+    "year": 2020
+  },
+  {
+    "brand": "Chevrolet",
+    "engine_volume": 1.8,
+    "price": 28000,
+    "year": 2018
+  },
+  {
+    "brand": "BMW",
+    "engine_volume": 2.0,
+    "price": 50000,
+    "year": 2018
+  },
+  {
+    "brand": "Volkswagen",
+    "engine_volume": 2.0,
+    "price": 33000,
+    "year": 2019
+  },
+  {
+    "brand": "Kia",
+    "engine_volume": 2.0,
+    "price": 31000,
+    "year": 2019
+  },
+  {
+    "brand": "Mazda",
+    "engine_volume": 2.0,
+    "price": 32000,
+    "year": 2018
+  }
+]
+
+2026-08-31 16:18:28,072 - INFO - Test passed: sort_by=engine_volume, limit=10
+2026-08-31 16:18:28,081 - INFO - GET /cars -> params: {'sort_by': None, 'limit': 7}
+2026-08-31 16:18:28,087 - INFO - GET /cars -> status: 200
+2026-08-31 16:18:28,088 - INFO - GET /cars -> response: [
+  {
+    "brand": "Acura",
+    "engine_volume": 2.4,
+    "price": 48000,
+    "year": 2020
+  },
+  {
+    "brand": "Audi",
+    "engine_volume": 1.8,
+    "price": 45000,
+    "year": 2020
+  },
+  {
+    "brand": "BMW",
+    "engine_volume": 2.0,
+    "price": 50000,
+    "year": 2018
+  },
+  {
+    "brand": "Bugatti",
+    "engine_volume": 8.0,
+    "price": 350000,
+    "year": 2019
+  },
+  {
+    "brand": "Chevrolet",
+    "engine_volume": 1.8,
+    "price": 28000,
+    "year": 2018
+  },
+  {
+    "brand": "Ferrari",
+    "engine_volume": 6.3,
+    "price": 250000,
+    "year": 2021
+  },
+  {
+    "brand": "Ford",
+    "engine_volume": 2.2,
+    "price": 32000,
+    "year": 2015
+  }
+]
+
+2026-08-31 16:18:28,088 - INFO - Test passed: sort_by=None, limit=7
+2026-08-31 16:18:28,090 - INFO - Session closed
